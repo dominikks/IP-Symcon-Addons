@@ -1,0 +1,11 @@
+{
+    "id": "{1E4C3CAE-038A-42C9-9977-1AFDCE9CF1C4}",
+    "name": "HomeMatic Jalousie",
+    "type": 3,
+    "vendor": "Dominik Kus",
+    "aliases": [],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "HMJ"
+}
