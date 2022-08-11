@@ -1,14 +1,14 @@
 {
-    "elements": [
-        {
-            "type": "SelectInstance",
-            "name": "HMUpInstance",
-            "caption": "Jalousie up button"
-        },
-        {
-            "type": "SelectInstance",
-            "name": "HMDownInstance",
-            "caption": "Jalousie down button"
-        }
-    ]
+  "elements": [
+    {
+      "type": "SelectInstance",
+      "name": "HMUpInstance",
+      "caption": "Jalousie up button"
+    },
+    {
+      "type": "SelectInstance",
+      "name": "HMDownInstance",
+      "caption": "Jalousie down button"
+    }
+  ]
 }

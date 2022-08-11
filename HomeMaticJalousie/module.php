@@ -1,8 +1,10 @@
 <?php
 
-class HomeMaticJalousie extends IPSModule {
+class HomeMaticJalousie extends IPSModule
+{
 	// IPS functions
-	public function Create() {
+	public function Create()
+	{
 		parent::Create();
 
 		// Properties erstellen
@@ -14,8 +16,9 @@ class HomeMaticJalousie extends IPSModule {
 		$this->EnableAction("StatusVariable");
 	}
 
-	public function RequestAction($Ident, $Value) {
-		switch($Ident) {
+	public function RequestAction($Ident, $Value)
+	{
+		switch ($Ident) {
 			case "StatusVariable":
 				$this->SendCommand($Value);
 				break;
@@ -25,12 +28,13 @@ class HomeMaticJalousie extends IPSModule {
 	}
 
 	// Function for the public API within IPS
-	public function SendCommand(bool $Up) {
+	public function SendCommand(bool $Up)
+	{
 		$hminst = $this->ReadPropertyInteger($Up ? "HMUpInstance" : "HMDownInstance");
-		if($hminst) {
+		if ($hminst) {
 			HM_WriteValueFloat($hminst, "ON_TIME", 0.5);
 			HM_WriteValueBoolean($hminst, "STATE", true);
 		}
-		SetValue($this->GetIDForIdent("StatusVariable"), $Up);
+		$this->SetValue("StatusVariable", $Up);
 	}
 }
