@@ -1,0 +1,183 @@
+{
+  "elements": [
+    {
+      "type": "ValidationTextBox",
+      "name": "MQTTTopic",
+      "caption": "MQTT topic"
+    },
+    {
+      "type": "NumberSpinner",
+      "name": "RefreshSeconds",
+      "caption": "Refresh interval (0 = disabled)",
+      "suffix": "s",
+      "minimum": 0
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        1,
+        2
+      ],
+      "name": "OutdoorTemperature",
+      "caption": "Outdoor temperature"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        1,
+        2
+      ],
+      "name": "OutdoorHumidity",
+      "caption": "Outdoor humidity"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        1,
+        2
+      ],
+      "name": "WindSpeed",
+      "caption": "Wind speed"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        1,
+        2
+      ],
+      "name": "AirPressure",
+      "caption": "Air pressure"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        1
+      ],
+      "name": "UVIndex",
+      "caption": "UV index"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        3
+      ],
+      "name": "UVIndexDescription",
+      "caption": "UV index text description"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        1,
+        2
+      ],
+      "name": "Ozone",
+      "caption": "Ozone"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        0
+      ],
+      "name": "IsRaining",
+      "caption": "Rain state"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        1,
+        2
+      ],
+      "name": "PowerMeter",
+      "caption": "Power meter"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        1,
+        2
+      ],
+      "name": "IndoorTemperature",
+      "caption": "Indoor temperature"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        1,
+        2
+      ],
+      "name": "IndoorHumidity",
+      "caption": "Indoor humidity"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        1
+      ],
+      "name": "SunsetTime",
+      "caption": "Sunset timestamp"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        1
+      ],
+      "name": "SunriseTime",
+      "caption": "Sunrise timestamp"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        0
+      ],
+      "name": "WindowsOpen",
+      "caption": "Windows open"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        1,2
+      ],
+      "name": "RainfallToday",
+      "caption": "Rainfall today"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        1,2
+      ],
+      "name": "RainfallYesterday",
+      "caption": "Rainfall yesterday"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        1,2
+      ],
+      "name": "CO2",
+      "caption": "CO2"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        3
+      ],
+      "name": "SunshineHoursToday",
+      "caption": "Sunshine hours today"
+    },
+    {
+      "type": "SelectVariable",
+      "validVariableTypes": [
+        3
+      ],
+      "name": "SunshineHoursYesterday",
+      "caption": "Sunshine hours yesterday"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Button",
+      "label": "Update",
+      "onClick": "EPD_Update($id);"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "translations": {
+    "de": {
+      "MQTT topic": "MQTT Topic",
+      "Refresh interval (0 = disabled)": "Aktualisierungsintervall (0 = deaktiviert)",
+      "Outdoor temperature": "Außentemperatur",
+      "Outdoor humidity": "Luftfeuchtigkeit außen",
+      "Wind speed": "Windgeschwindigkeit",
+      "Air pressure": "Luftdruck",
+      "UV index": "UV-Index",
+      "UV index text description": "UV-Index Textbeschreibung",
+      "Ozone": "Ozon",
+      "Rain state": "Regenstatus",
+      "Update": "Aktualisieren",
+      "Power meter": "Stromverbrauch",
+      "Indoor temperature": "Innentemperatur",
+      "Indoor humidity": "Luftfeuchtigkeit innen",
+      "Sunset timestamp": "Sonnenuntergang",
+      "Sunrise timestamp": "Sonnenaufgang",
+      "Windows open": "Fenster geöffnet",
+      "Rainfall today": "Niederschlag heute",
+      "Rainfall yesterday": "Niederschlag gestern",
+      "Sunshine hours today": "Sonnenstunden heute",
+      "Sunshine hours yesterday": "Sonnenstunden gestern"
+    }
+  }
+}

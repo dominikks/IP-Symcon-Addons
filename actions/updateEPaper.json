@@ -1,0 +1,21 @@
+{
+  "id": "{935E7C91-FC59-3291-6408-B7EC37D1BBEC}",
+  "caption": "Update E-Paper Display",
+  "category": "target",
+  "form": [],
+  "action": "EPD_Update($_IPS['TARGET']);",
+  "restrictions": {
+    "objectType": [
+      1
+    ],
+    "moduleID": [
+      "{773D8C07-D72E-4927-EC06-9055A9A66EBF}"
+    ]
+  },
+  "priority": 10,
+  "locale": {
+    "de": {
+      "Update E-Paper Display": "E-Paper Display aktualisieren"
+    }
+  }
+}
