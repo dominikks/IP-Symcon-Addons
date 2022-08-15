@@ -2,7 +2,9 @@
   "translations": {
     "de": {
       "Jalousie up button": "Jalousie hoch Taster",
-      "Jalousie down button": "Jalousie runter Taster"
+      "Jalousie down button": "Jalousie runter Taster",
+      "Move up": "Hochfahren",
+      "Move down": "Herunterfahren"
     }
   }
 }

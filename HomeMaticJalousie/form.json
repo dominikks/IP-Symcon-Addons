@@ -10,5 +10,17 @@
       "name": "HMDownInstance",
       "caption": "Jalousie down button"
     }
+  ],
+  "actions": [
+    {
+      "type": "Button",
+      "label": "Move up",
+      "onClick": "HMJ_SendCommand($id, true);"
+    },
+    {
+      "type": "Button",
+      "label": "Move down",
+      "onClick": "HMJ_SendCommand($id, false);"
+    }
   ]
 }
