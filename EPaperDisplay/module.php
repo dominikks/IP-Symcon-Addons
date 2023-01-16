@@ -95,7 +95,7 @@ class ePaperDisplay extends IPSModule
 
     foreach (static::$Variables as $var) {
       $varid = $this->ReadPropertyInteger($var[0]);
-      $payload[$var[0]] = $varid ? GetValue($varid) : $var[1];
+      $payload[$var[0]] = IPS_VariableExists($varid) ? GetValue($varid) : $var[1];
     }
 
     $payload = json_encode($payload);
